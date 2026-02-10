@@ -4,7 +4,7 @@
 * @main: its mine damnit
 * Description: Does my stuff explained.
 */
-int main(void) 
+int main(void)
 {
 /* this prints out the output */
 puts("\"Programming is like building a multilingual puzzle");
