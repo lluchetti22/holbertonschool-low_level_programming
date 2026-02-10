@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main(void){
-    char alphabet = "abcdefghijklmnopqrstuvwxyz";
-
-    putchar(alphabet);
-    
+ for (int i = 30; i <= 35; i++) {
+        putchar(i);
+		
+    }
+    return 0;
 }
