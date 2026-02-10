@@ -1,5 +1,10 @@
 #include <stdio.h>
-int main(void) /* the main function to print a string using puts */
+/**
+* puts - does my stuff
+* @main: its mine damnit
+* Description: Does my stuff explained.
+*/
+int main(void) 
 {
 /* this prints out the output */
 puts("\"Programming is like building a multilingual puzzle");
