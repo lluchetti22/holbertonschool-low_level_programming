@@ -2,7 +2,7 @@
 /**
 * main - does my stuff
 *
-* Return: 0.git 
+* Return: 0.
 */
 int main(void)
 {
