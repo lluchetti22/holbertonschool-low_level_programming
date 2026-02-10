@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
+/**
+* main - is it positive or negative
+*
+* Return: 0
+*/
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 int n;
@@ -14,12 +17,12 @@ n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
 printf("%d is positive\n", n);
-} 
+}
 else if (n < 0)
 {
 printf("%d is negative\n", n);
-} 
-else 
+}
+else
 {
 printf("%d is zero\n", n);
 }
