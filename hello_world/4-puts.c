@@ -2,7 +2,7 @@
 /*
 * main - does my stuff
 *
-* Description: Does my stuff explained.
+* return 0
 */
 int main(void)
 {
