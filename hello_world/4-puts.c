@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
 * main - does my stuff
-* 
+*
 * Description: Does my stuff explained.
 */
 int main(void)
