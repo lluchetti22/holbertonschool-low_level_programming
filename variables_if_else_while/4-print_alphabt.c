@@ -12,11 +12,16 @@ int i;
 
 for (i = 97; i <= 122; i++)
 {
-if (i != 102) || (i != 113)
+if (i == 101)
+{
+}
+else if (i == 113)
+{
+}
+else
 {
 putchar(i);
 }
-
 }
 
 return (0);
