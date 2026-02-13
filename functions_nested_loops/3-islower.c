@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* main - print numbers
+* _islower - print numbers
 *
 * Return: 0
 */
