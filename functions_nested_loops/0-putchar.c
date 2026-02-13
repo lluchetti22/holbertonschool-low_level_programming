@@ -1,15 +1,11 @@
 #include <stdio.h>
-#include <unistd.h>
+#include main.h
 
 /**
 * main - print numbers
 *
 * Return: 0
 */
-int _putchar(char c)
-{
-return (write(1, &c, 1));
-}
 
 int main(void)
 {
