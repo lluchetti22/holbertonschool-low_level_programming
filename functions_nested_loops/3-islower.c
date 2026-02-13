@@ -3,7 +3,7 @@
 
 /**
 * _islower - print numbers
-*
+* @c: a int 
 * Return: 0
 */
 
