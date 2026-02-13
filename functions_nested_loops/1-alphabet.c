@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - check the code
@@ -9,10 +10,12 @@
 int main(void)
 {
 
-for(char a = 'a'; a <= 'z'; a++)
+char x;
+
+for(x = 'a'; x <= 'z'; x++)
 {
 
-_putchar(a);
+_putchar(x);
 
 }
 
