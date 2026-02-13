@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* _isalpha - print numbers
+* print_sign - print numbers
 * @n: a int
 * Return: 0
 */
