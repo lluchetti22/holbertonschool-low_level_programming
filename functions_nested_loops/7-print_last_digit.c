@@ -18,7 +18,7 @@ if (lastdigit < 0)
 lastdigit *= -1;
 }
 
-ptuchar(lastdigit + '0');
+_putchar(lastdigit + '0');
 
 return (lastdigit);
 }
