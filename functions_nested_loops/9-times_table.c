@@ -45,5 +45,6 @@ _putchar('0' + (table % 10));
 }
 }
 }
+_putchar('\n');
 } 
 }
