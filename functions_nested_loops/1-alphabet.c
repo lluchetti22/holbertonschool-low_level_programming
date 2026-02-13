@@ -9,7 +9,6 @@
 int main(void)
 {
 
-
 for(char a = 'a'; a <= 'z'; a++)
 {
 
