@@ -19,6 +19,5 @@ lastdigit *= -1;
 }
 
 _putchar(lastdigit + '0');
-
 return (lastdigit);
 }
