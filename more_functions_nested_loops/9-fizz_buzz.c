@@ -45,10 +45,6 @@ if (x < 100)
 {
 printf(" ");
 }
-else
-{
-printf("\n");
-}
 
 return (0);
 }
