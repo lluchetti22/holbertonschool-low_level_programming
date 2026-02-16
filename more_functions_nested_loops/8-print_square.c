@@ -21,7 +21,7 @@ for (i = 0; i < size; i++)
 {
 int x;
 
-for (x = 0; x < i; x++)
+for (x = 0; x < size; x++)
 {
 _putchar('#');
 
