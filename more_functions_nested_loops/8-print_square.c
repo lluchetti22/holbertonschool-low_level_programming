@@ -17,7 +17,7 @@ _putchar('\n');
 
 int i;
 
-for (i = 0 ; i < size; i++)
+for (i = 0; i < size; i++)
 {
 int x;
 
