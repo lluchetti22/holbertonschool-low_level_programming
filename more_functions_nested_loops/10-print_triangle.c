@@ -26,7 +26,7 @@ for (y = 1; y < (size - x); y++)
 _putchar(' ');
 }
 
-for (y = 1; y <= size; y++)
+for (; y <= size; y++)
 {
 _putchar('#');
 }
