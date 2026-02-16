@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * swap_int - check the code
+ * _strlen - check the code
  * @s: stored char
  * Return: Always 0.
  */
@@ -15,7 +15,7 @@ int length;
 while (*s != '\0')
 {
 length++;
-*s++;
+s++;
 }
 
 }
