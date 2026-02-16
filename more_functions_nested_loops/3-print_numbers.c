@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * mul - check the code
+ * print_numbers - check the code
  *
  * Return: Always 0.
  */
