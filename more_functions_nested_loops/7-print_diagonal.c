@@ -15,7 +15,9 @@ while (n > 0)
 _putchar(' ');
 n--;
 }
+if (n > 0)
+{
 _putchar('\\');
-
+}
 _putchar('\n');
 }
