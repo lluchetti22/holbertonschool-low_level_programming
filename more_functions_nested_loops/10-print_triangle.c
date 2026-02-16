@@ -21,7 +21,7 @@ int x, y;
 for (x = 0; x < size; x++)
 {
 
-for (y = 0; y <= size; y++)
+for (y = 0; y <= (size - x); y++)
 {
 _putchar(' ');
 }
