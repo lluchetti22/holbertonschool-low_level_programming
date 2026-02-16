@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strlen - check the code
+ * _puts - check the code
  * @str: stored string
  * Return: Always 0.
  */
