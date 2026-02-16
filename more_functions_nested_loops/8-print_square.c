@@ -15,10 +15,11 @@ if (size <= 0)
 _putchar('\n');
 }
 
-int i, x;
+int i;
 
 for (i = 0 ; i < size; i++)
 {
+int x;
 
 for (x = 0; x < i; x++)
 {
