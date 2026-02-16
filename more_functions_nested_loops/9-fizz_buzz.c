@@ -12,6 +12,7 @@ int x;
 
 for (x = 0; x <= 100; x++)
 {
+
 if ((x % 3 && x % 5) == 0)
 {
 printf("FizzBuzz\n");
@@ -32,3 +33,4 @@ printf("%d\n",x);
 
 
 }
+
