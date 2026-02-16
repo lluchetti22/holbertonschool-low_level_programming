@@ -3,7 +3,7 @@
 
 /**
  * mul - check the code
- * 
+ *
  * Return: Always 0.
  */
 
