@@ -3,7 +3,8 @@
 
 /**
  * _isdigit - check the code
- * @c: int
+ * @a: int
+ * @b: int
  * Return: Always 0.
  */
 
