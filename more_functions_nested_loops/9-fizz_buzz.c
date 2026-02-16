@@ -29,6 +29,16 @@ else
 {
 printf("%d",x);
 }
+
+if (x < 100)
+{
+printf(" ");
+}
+else
+{
+printf("\n");
+}
+
 }
 
 if (x < 100)
