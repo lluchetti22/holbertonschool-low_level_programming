@@ -18,7 +18,7 @@ else
 {
 int x, y;
 
-for (x = 1; x <= size; x++)
+for (x = 0; x <= size; x++)
 {
 
 for (y = 1; y < (size - x); y++)
@@ -26,7 +26,7 @@ for (y = 1; y < (size - x); y++)
 _putchar(' ');
 }
 
-for (; y <= size; y++)
+for (; y < size; y++)
 {
 _putchar('#');
 }
