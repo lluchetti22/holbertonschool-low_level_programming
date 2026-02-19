@@ -49,5 +49,5 @@ if (found == 0)
 return (0);
 }
 
-return (sign > 0 ? -res : res);
+return (res * sign);
 }
