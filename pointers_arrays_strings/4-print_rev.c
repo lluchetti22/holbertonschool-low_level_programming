@@ -20,7 +20,7 @@ length++;
 
 for (i = length; i >= 0; i--)
 {
-_putcher(s[i]);
+_putchar(s[i]);
 }
 
 _putchar('\n');
