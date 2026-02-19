@@ -9,8 +9,9 @@
 
 int _atoi(char *s)
 {
-int i, sign, found;
+int i, sign, found, x;
 unsigned int res;
+
 
 i = 0;
 sign = 1;
@@ -34,7 +35,7 @@ if (!(s[i + 1] >= '0' && s[i + 1] <= '9'))
 {
 break;
 }
-}  
+}
 i++;
 }
 
@@ -42,6 +43,6 @@ if (found == 0)
 {
 return (0);
 }
-
-return (res * sign);
+x = res * sign;
+return (x);
 }
