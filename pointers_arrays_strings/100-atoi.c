@@ -1,46 +1,43 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _atoi - check the code
- * @s: stored string
- * Return: Always 0.
+ * _atoi - converts a string to an integer
+ * @s: the string to be converted
+ *
+ * Return: the integer value of the converted string
  */
-
 int _atoi(char *s)
 {
-int i, sign, found;
-unsigned int res;
+	int i = 0;
+	int sign = 1;
+	int found = 0;
+	unsigned int res = 0;
 
-i = 0;
-sign = 1;
-res = 0;
-found = 0;
+	while (s[i] != '\0')
+	{
+		/* 1. Handle signs */
+		if (s[i] == '-')
+		{
+			sign *= -1;
+		}
 
-while (s[i] != '\0')
-{
+		/* 2. Process digits */
+		if (s[i] >= '0' && s[i] <= '9')
+		{
+			found = 1;
+			res = (res * 10) + (s[i] - '0');
+		}
+		/* 3. Break if we already found a number and hit a non-digit */
+		else if (found)
+		{
+			break;
+		}
 
-if (s[i] == '-')
-{
-sign *= -1;
-}
+		i++;
+	}
 
-if (s[i] >= '0' && s[i] <= '9')
-{
-found = 1;
-res = (res * 10) + (s[i] - '0');
+	if (found == 0)
+		return (0);
 
-if (!(s[i + 1] >= '0' && s[i + 1] <= '9'))
-{
-break;
-}
-}
-i++;
-}
-
-if (found == 0)
-{
-return (0);
-}
-return (sign * res);
+	return (res * sign);
 }
