@@ -19,6 +19,6 @@ _putchar(str[i]);
 
 }
 
-_puthcar('\n');
+_puthchar('\n');
 
 }
