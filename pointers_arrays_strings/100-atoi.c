@@ -41,6 +41,5 @@ if (found == 0)
 {
 return (0);
 }
-
-return (sign * res);
+return (res * sign);
 }
