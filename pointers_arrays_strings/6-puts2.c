@@ -3,7 +3,7 @@
 
 /**
  * puts2 - check the code
- * @s: stored string
+ * @str: stored string
  * Return: Always 0.
  */
 
