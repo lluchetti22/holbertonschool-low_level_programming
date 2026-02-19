@@ -22,7 +22,7 @@ if (s[i] == '-')
 sign *= -1;
 }
 
-if (s[i] >= '0' && s[i] <= '9' )
+if (s[i] >= '0' && s[i] <= '9')
 {
 found = 1;
 res = (res * 10) + (s[i] - '0');
@@ -42,5 +42,5 @@ if (found == 0)
 return (0);
 }
 
-return (res * sign);
+return (res*sign);
 }
