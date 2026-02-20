@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strcat - check the code
+ * _strncat - check the code
  * @dest: char
  * @src: char
  * @n: int
