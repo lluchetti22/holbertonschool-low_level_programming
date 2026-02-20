@@ -18,7 +18,7 @@ for (i = 0; s[i] != '\0'; i++)
 
 for (x = 0; letters[x] != '\0'; x++)
 {
-if(s[i] = letters[x])
+if (s[i] == letters[x])
 {
 s[i] = numbers[x];
 }
