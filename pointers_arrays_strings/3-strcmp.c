@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strncpy - check the code
+ * _strcmp - check the code
  * @s1: char
  * @s2: char
  * Return: Always 0.
