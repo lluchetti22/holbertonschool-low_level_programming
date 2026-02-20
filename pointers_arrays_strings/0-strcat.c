@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 - check the code
+ * _strcat - check the code
  * @dest: char
  * @src: char
  * Return: Always 0.
