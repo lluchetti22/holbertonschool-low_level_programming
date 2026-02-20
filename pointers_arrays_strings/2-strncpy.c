@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strncat - check the code
+ * _strncpy - check the code
  * @dest: char
  * @src: char
  * @n: int
@@ -12,7 +12,7 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 char *ptr = dest;
-int i =0;
+int i = 0;
 
 while (i < n && *src != '\0')
 {
