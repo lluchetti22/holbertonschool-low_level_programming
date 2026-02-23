@@ -21,7 +21,7 @@ return (s);
 s++;
 }
 
-if (C == '\0')
+if (c == '\0')
 {
 return (s);
 }
