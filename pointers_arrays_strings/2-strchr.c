@@ -18,13 +18,13 @@ if (*s == c)
 {
 return (s);
 }
-
-if (*s == '\0')
-{
-return ('\0');
-}
-
 s++;
 }
-return ('\0');
+
+if (C == '\0')
+{
+return (s);
+}
+
+return (NULL);
 }
