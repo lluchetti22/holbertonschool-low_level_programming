@@ -2,9 +2,8 @@
 #include <stdio.h>
 
 /**
- * _strstr - do the code
- * @haystack: char
- * @needle: char
+ * print_chessboard - do the code
+ * @a: char
  * Return: Nothing.
  */
 
