@@ -15,7 +15,7 @@ unsigned int i, j;
 /*
 * Goes through each character in the string
 */
-for(i = 0; s[i] != '\0'; i++)
+for (i = 0; s[i] != '\0'; i++)
 {
 
 /*
