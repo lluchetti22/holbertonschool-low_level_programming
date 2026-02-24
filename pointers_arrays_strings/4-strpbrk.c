@@ -25,7 +25,8 @@ for (j = 0; accept[j] != '\0'; j++)
 {
 if (s[i] == accept[j])
 {
-return (s[i]);
+
+return (&s[i]);
 }
 }
 }
