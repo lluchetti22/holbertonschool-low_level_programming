@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strpbrk - do the code
+ * _strstr - do the code
  * @haystack: char
  * @needle: char
  * Return: Nothing.
