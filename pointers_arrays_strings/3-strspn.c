@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strchr - do the code
+ * _strspn - do the code
  * @s: char
  * @accept: char
  * Return: Nothing.
