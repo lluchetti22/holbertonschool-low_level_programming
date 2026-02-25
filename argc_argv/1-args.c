@@ -1,0 +1,16 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+/**
+ * main - check the code
+ * @argc: int
+ * @argv: char
+ * Return: Always 0.
+ */
+
+int main(int argc)
+{
+
+printf("%d\n", argc - 1);
+return (0);
+}
