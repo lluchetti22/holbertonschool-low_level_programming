@@ -28,7 +28,7 @@ return (1);
 
 }
 
-result =+ atoi(argv[i]);
+result += atoi(argv[i]);
 }
 
 if (argc == 1)
@@ -36,5 +36,6 @@ if (argc == 1)
 printf("0\n");
 }
 
+printf("%d\n", result);
 return (0);
 }
