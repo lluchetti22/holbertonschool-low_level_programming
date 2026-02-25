@@ -1,4 +1,4 @@
 int main(int argc, char* argv[])
 {
-return ('\n');
+printf("\n", argc);
 }
