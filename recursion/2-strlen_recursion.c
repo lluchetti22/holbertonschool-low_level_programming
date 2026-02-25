@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _print_rev_recursion - check the code
+ * _strlen_recursion - check the code
  * @s: char
  * Return: Always 0.
  */
@@ -15,6 +15,6 @@ if (*s == '\0')
 return (0);
 }
 
-return (1 + _strlen_recursion(s + 1));
+return (_strlen_recursion(s + 1));
 
 }
