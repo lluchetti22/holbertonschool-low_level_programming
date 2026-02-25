@@ -16,7 +16,7 @@ if (i * i > n)
 return (1);
 }
 
-if (i % i == 0)
+if (n % i == 0)
 {
 return (0);
 }
