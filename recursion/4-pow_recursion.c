@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * factorial - check the code
+ * _pow_recursion - check the code
  * @x: int
  * @y: int
  * Return: Always 0.
@@ -21,6 +21,6 @@ if (y == 0)
 return (1);
 }
 
-return(x * _pow_recursion(x,y - 1));
+return(x * _pow_recursion(x, y - 1));
 
 }
