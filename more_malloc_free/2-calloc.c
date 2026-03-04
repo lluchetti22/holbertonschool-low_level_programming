@@ -33,6 +33,7 @@ if (ptr == NULL)
 return (NULL);
 }
 
+/* sets memory to zero */
 for (i = 0; i < total; i++)
 {
 ptr[i] = 0;
