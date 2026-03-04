@@ -30,7 +30,7 @@ len2++;
 link = malloc(sizeof(char) * (len1 + len2 + 1));
 
 if (link == NULL)
-retrun (NULL);
+return (NULL);
 
 for (i = 0; i < len1; i++)
 link[i] = s1[i];
