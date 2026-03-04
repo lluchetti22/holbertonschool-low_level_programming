@@ -26,7 +26,7 @@ if (grid == NULL)
 return (NULL);
 }
 
-for (y = 0; y < height; y++)
+for (x = 0; x < height; x++)
 {
 grid[x] = malloc(sizeof(int) * width);
 
