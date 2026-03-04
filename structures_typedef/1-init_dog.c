@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * *_calloc - do the code
+ * init_dog - do the code
  * @d: int
  * @name: int
  * @age: int
