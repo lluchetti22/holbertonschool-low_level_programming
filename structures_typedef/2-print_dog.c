@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * init_dog - do the code
+ * print_dog - do the code
  * @d: int
  * Return: Nothing.
  */
@@ -16,7 +16,7 @@ if (d == NULL)
 return;
 }
 
-printf("Name: %s\n", (d->name != NULL) ? d->name: "(nil)");
+printf("Name: %s\n", (d->name != NULL) ? d->name : "(nil)");
 printf("Age: %f\n", d->age);
-printf("Owner: %s\n", (d->owner != NULL) ? d->owner: "(nil)");
+printf("Owner: %s\n", (d->owner != NULL) ? d->owner : "(nil)");
 }
