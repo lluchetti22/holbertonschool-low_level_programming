@@ -46,7 +46,7 @@ free(d);
 return (NULL);
 }
 
-for (i = 0; i<= owner_len; i++)
+for (i = 0; i <= owner_len; i++)
 d->owner[i] = owner[i];
 
 d->age = age;
