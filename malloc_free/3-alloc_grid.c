@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- * *str_concat - do the code
- * @s1: int
- * @s2: char
+ * **alloc_grid - do the code
+ * @width: int
+ * @height: int
  * Return: Nothing.
  */
 
