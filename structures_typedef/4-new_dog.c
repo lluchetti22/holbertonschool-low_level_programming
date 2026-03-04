@@ -44,9 +44,9 @@ free(d);
 return (NULL);
 }
 
-for(i = 0; i<= name_len; i++)
+for(i = 0; i <= name_len; i++)
 {
-d->name[i] =- name[i];
+d->name[i] = name[i];
 }
 
 d->owner = malloc(owner_len + 1);
