@@ -4,7 +4,8 @@
 
 /**
  * main - do the code
- * 
+ * @argc: int
+ * @argv: char
  * Return: Nothing.
  */
 
