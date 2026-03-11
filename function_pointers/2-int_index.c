@@ -6,7 +6,7 @@
  * int_index - do the code
  * @array: int
  * @size: int
- * @action: int
+ * @cmp: int
  * Return: Nothing.
  */
 
