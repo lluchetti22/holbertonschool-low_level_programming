@@ -59,7 +59,7 @@ return (a / b);
 }
 
 /**
- * int op_mod - do the code
+ * op_mod - do the code
  * @a: int
  * @b: int
  * Return: Nothing.
