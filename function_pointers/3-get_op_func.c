@@ -21,12 +21,21 @@ op_t ops[] = {
 {NULL, NULL}
 };
 
-int i;
+int i = 0;
 
-if (s != ops[])
+/* loop to check that .op doesn't equal NULL*/
+while (ops[i].op != NULL)
 {
-return (NULL);
+
+/* checking to see that s is one of the 5 operators */
+if (*(ops[i].op) == *s && s[1] == '\0')
+{
+return (ops[i].f);
 }
 
+i++;
+}
 
+/* if not an operator return NULL */
+return (NULL);
 }
