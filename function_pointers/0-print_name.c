@@ -4,16 +4,17 @@
 
 /**
  * init_dog - do the code
- * @d: int
  * @name: int
- * @age: int
- * @owner: int
+ * @f: int
  * Return: Nothing.
  */
 
 void print_name(char *name, void (*f)(char *))
 {
 
-
+if (name && f)
+{
+f(name);
+}
 
 }
