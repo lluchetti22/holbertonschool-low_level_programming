@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * init_dog - do the code
+ * print_name - do the code
  * @name: int
  * @f: int
  * Return: Nothing.
