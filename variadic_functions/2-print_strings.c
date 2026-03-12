@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
- * print_numbers - check the code
+ * print_strings - check the code
  * @n: int
  * @separator: char
  * Return: Always 0.
