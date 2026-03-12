@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
- * print_strings - check the code
+ * print_all - check the code
  * @format: char
  * Return: Always 0.
  */
@@ -19,7 +19,6 @@ va_start(ap, format);
 /* loop to go through the format string */
 while (format && format[i])
 {
-
 
 switch (format[i])
 {
