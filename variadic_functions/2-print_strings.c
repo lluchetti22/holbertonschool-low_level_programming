@@ -23,7 +23,7 @@ str = va_arg(ap, char *);
 
 if (str == NULL)
 {
-    printf("(nil)");
+printf("(nil)");
 }
 else
 {
