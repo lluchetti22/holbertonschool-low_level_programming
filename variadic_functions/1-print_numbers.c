@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - check the code
+ * print_numbers - check the code
  * @n: int
  * @separator: char
  * Return: Always 0.
@@ -21,12 +21,11 @@ for (i = 0; i < n; i++)
 {
 printf("%d", va_arg(ap, int));
 
-if (separator != NULL && i < n)
+if (separator != NULL && i < n - 1)
 {
 printf("%s", separator);
 }
 }
-
 
 printf("\n");
 va_end(ap);
