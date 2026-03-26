@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * struct list_s - singly linked list
+ * print_list - singly linked list
  * @h: string
  * Return: singly linked list node structure
  */
