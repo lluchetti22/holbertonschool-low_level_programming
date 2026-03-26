@@ -15,6 +15,7 @@ list_t *add_node_end(list_t **head, const char *str)
 
 list_t *node;
 list_t *current;
+unsigned int length = 0;
 
 /* allocates memory for a new node*/
 node = malloc(sizeof(list_t));
@@ -32,7 +33,12 @@ return (NULL);
 }
 
 /* Calc the length of the string and checks for NULL */
-node->len = strlen(str);
+while (str[length])
+{
+length++;
+}
+
+node->len = length;
 node->next = NULL;
 
 /* if list is empty make node the head */
