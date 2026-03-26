@@ -33,7 +33,7 @@ length++;
 node->len = length;
 node->next = NULL;
 /* if list is empty make node the head */
-if(*head == NULL)
+if (*head == NULL)
 {
 *head = node;
 }
