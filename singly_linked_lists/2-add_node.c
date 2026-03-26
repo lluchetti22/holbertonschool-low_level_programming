@@ -24,7 +24,7 @@ return (NULL);
 
 /* Duplicating the string */
 new_node->str = strdup(str);
-if(new_node->str == NULL)
+if (new_node->str == NULL)
 {
 free(new_node);
 return (NULL);
