@@ -1,6 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
-#include <unistd.h>
+#include <stdlib.h>
 
 /**
  * add_node - singly linked list
