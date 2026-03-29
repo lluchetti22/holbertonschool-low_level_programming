@@ -20,7 +20,7 @@ if (filename == NULL)
 return (-1);
 }
 
-/* 
+/*
 * O_CREAT: Create if it doesn't exist
 * O_WRONLY: Open for writing
 * O_TRUNC: Truncate to length 0 if it exists
