@@ -1,5 +1,5 @@
 #include "lists.h"
-#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * add_dnodeint - Prints all elements of a doubly linked dlistint_t list.
