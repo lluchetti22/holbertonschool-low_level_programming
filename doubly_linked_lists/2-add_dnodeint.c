@@ -35,7 +35,6 @@ if (*head != NULL)
 (*head)->prev = new_node;
 }
 
-
 /* Pointing the head to the new node */
 *head = new_node;
 
