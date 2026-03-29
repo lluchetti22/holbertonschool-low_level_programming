@@ -3,7 +3,7 @@
 
 /**
  * delete_dnodeint_at_index - Prints all elements of a doubly linked dlistint_t
- * @h: A pointer to the head of the dlistint_t list.
+ * @head: A pointer to the head of the dlistint_t list.
  * @index: A pointer to the head of the dlistint_t list.
  * Return: The total number of nodes in the list.
  */
