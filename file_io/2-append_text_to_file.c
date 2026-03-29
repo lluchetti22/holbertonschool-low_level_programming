@@ -34,7 +34,7 @@ i++;
 }
 
 bytes = write(file, i > 0 ? text_content : "", i);
-if (bytes == -1 | bytes != i)
+if (bytes == -1 || bytes != i)
 {
 close(file);
 return (-1);
