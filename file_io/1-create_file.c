@@ -4,9 +4,9 @@
 #include <unistd.h>
 
 /**
- * read_textfile - Prints all elements of a doubly linked dlistint_t.
+ * create_file - Prints all elements of a doubly linked dlistint_t.
  * @filename: A pointer to the head of the dlistint_t list.
- * @letters: int
+ * @text_content: char
  * Return: The total number of nodes in the list.
  */
 
