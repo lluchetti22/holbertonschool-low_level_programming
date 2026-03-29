@@ -4,7 +4,7 @@
 #include <unistd.h>
 
 /**
- * get_dnodeint_at_index - Prints all elements of a doubly linked dlistint_t.
+ * read_textfile - Prints all elements of a doubly linked dlistint_t.
  * @filename: A pointer to the head of the dlistint_t list.
  * @letters: int
  * Return: The total number of nodes in the list.
