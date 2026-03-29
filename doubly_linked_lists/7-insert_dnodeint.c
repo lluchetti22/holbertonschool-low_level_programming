@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * sum_dlistint - Prints all elements of a doubly linked dlistint_t.
+ * insert_dnodeint_at_index - Prints all elements of a doubly linked dlistint_t.
  * @h: A pointer to the head of the dlistint_t list.
  * @idx: A pointer to the head of the dlistint_t list.
  * @n: A pointer to the head of the dlistint_t list.
