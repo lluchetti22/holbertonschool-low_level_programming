@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * add_dnodeint - Prints all elements of a doubly linked dlistint_t list.
+ * add_dnodeint_end - Prints all elements of a doubly linked dlistint_t list.
  * @head: A pointer to the head of the dlistint_t list.
  * @n: A pointer to the head of the dlistint_t list.
  * Return: The total number of nodes in the list.
