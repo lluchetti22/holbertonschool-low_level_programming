@@ -42,7 +42,7 @@ i++;
 
 /* Write content to file */
 bytes = write(file, text_content, i);
-if (bytes == -1 || bytes != 1)
+if (bytes == -1 || bytes != i)
 {
 close(file);
 return (-1);
