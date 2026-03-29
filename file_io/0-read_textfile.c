@@ -43,7 +43,6 @@ return (0);
 }
 
 bytes_written = write(STDOUT_FILENO, buffer, bytes_read);
-
 free(buffer);
 close(file);
 
