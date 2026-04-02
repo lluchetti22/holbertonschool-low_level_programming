@@ -26,7 +26,7 @@ return (NULL);
 ht->size = size;
 
 
-ht->array = ammloc(sizeof(hash_node_t *) * size);
+ht->array = malloc(sizeof(hash_node_t *) * size);
 if (ht->array == NULL)
 {
 free(ht);
