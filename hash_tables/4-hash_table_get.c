@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * hash_table_set - does the code
+ * hash_table_get - does the code
  * @key: char 
  * @ht: table
  * Return: the code
