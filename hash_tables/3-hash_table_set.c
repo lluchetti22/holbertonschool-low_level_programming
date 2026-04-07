@@ -21,6 +21,7 @@ if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
 return (0);
 }
 
+value_copy = strdup(value);
 if (value_copy == NULL)
 {
 return (0);
