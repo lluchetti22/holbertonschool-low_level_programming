@@ -63,8 +63,8 @@ return (0);
 
 /* Assign the duplicated value and handle the collision by prepending */
 new_node->value = value_copy;
-new_node->next = ht->array[index]; // New node points to current head
-ht->array[index] = new_node; // New node becomes the new head
+new_node->next = ht->array[index]; /* New node points to current head */
+ht->array[index] = new_node; /* New node becomes the new head */
 return (1);
 }
 
