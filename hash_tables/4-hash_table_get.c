@@ -4,7 +4,7 @@
 
 /**
  * hash_table_get - does the code
- * @key: char 
+ * @key: char
  * @ht: table
  * Return: the code
  */
