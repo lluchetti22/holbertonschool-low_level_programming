@@ -1,6 +1,6 @@
 #include "hash_tables.h"
 #include <stdlib.h>
-#include <string.h>
+#include <stdio.h>
 
 /**
  * hash_table_print - does the code
@@ -29,7 +29,7 @@ while (node != NULL)
 {
 if (first == 0)
 {
-prinf(", ");
+printf(", ");
 }
 printf("'%s': '%s'", node->key, node->value);
 
