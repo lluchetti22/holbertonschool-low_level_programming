@@ -19,7 +19,7 @@ if (ht == NULL)
 return;
 }
 
-printf("{}");
+printf("{");
 
 for (i = 0; i < ht->size; i++)
 {
